@@ -33,7 +33,7 @@ function PlayScreen() {
   const navigate = useNavigate()
   const location = useLocation()
   const userDataRecieved = location.state || {};
-  const ENDPOINT = "https://skribblay-you.onrender.com/";
+  const ENDPOINT = "https://scribble-rose.vercel.app/";
   const ENDPOINT_LOCAL = "http://localhost:3001/";
   useEffect(() => {
     console.log("user Data revcievd", userDataRecieved)
